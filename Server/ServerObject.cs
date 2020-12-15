@@ -87,9 +87,12 @@ namespace ClientServerCSharp.Server
                 for (int j = 0; j < count; j++)
                 {
                     clientsLetters[j] += i.ToString() + ";";
+                    i++;
+                    if (i > Settings.Letters)
+                    {
+                        break;
+                    }
                 }
-
-                i += count;
             }
 
             int activeClients = count;

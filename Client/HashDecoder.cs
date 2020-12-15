@@ -12,7 +12,7 @@ namespace ClientServerCSharp.Client
         readonly static bool LogWordCombination = false;
         readonly static bool LogChangeLetterStart = false;
 
-        readonly static bool Parallelizm = false;
+        readonly static bool Parallelizm = true;
         readonly static bool ParallelizmLetters = true;
         readonly static bool ParallelizmChangeLetter = true;
 
